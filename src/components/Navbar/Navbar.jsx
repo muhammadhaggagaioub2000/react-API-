@@ -11,7 +11,7 @@ export default function Navbar({setSearch}) {
                         <div className="badge font-bold text-3xl">
                            <Link to="Products"> <h1 className='cursor-pointer font-bold'>Forkify</h1></Link>
                         </div>
-                        <input className='bg-white text-black w-50 md:w-100  p-2 rounded-md border-none outline-none' type="text" placeholder='Search' 
+                        <input className='bg-white text-black sm:w-50 md:w-100  p-2 rounded-md border-none outline-none' type="text" placeholder='Search' 
                         onChange={(e) => setSearch(e.target.value)}
                         />
                         <FaHeart className='cursor-pointer' size={30} />
